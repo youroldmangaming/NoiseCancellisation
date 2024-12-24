@@ -9,7 +9,7 @@ This project implements a real-time noise cancellation system in R that captures
 - Generation of a cyclic cancellation wave that is 180 degrees out of phase with the detected noise.
 - Application of a low-pass filter to reduce high-frequency noise, such as keyboard sounds.
 - Dynamic volume adjustment of the cancellation wave based on the noise level.
-- Visualization of the noise wave, cancellation wave, and their combined effect using `ggplot2`.
+- *Visualization of the noise wave, cancellation wave, and their combined effect using `ggplot2`.
 
 ## Requirements
 
@@ -28,3 +28,5 @@ You can install the required packages using the following commands in R:
 
 ```R
 install.packages(c("sonicscrewdriver", "audio", "ggplot2", "pracma", "signal"))
+
+*implemented but not fully working NB outside of the main processing loop.
